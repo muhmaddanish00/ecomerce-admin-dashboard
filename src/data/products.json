@@ -1,0 +1,54 @@
+[
+    {
+        "id":1,
+        "name":"laptop",
+        "category":"Electronics",
+        "price":1200,
+        "stock":4,
+        "image":"/image.jpg"
+    
+    },
+
+    {
+        "id":2,
+        "name":"T shirt",
+        "category":"Fashion",
+        "price":1400,
+        "stock":20,
+        "image":"/image.jpg"
+    
+    },
+    {
+        "id":3,
+        "name":"Shoes",
+        "category":"Fasion",
+        "price":100,
+        "stock":2,
+        "image":"/image.jpg"
+    },
+    {
+        "id":4,
+        "name":"Headphone",
+        "category":"Electronics",
+        "price":120,
+        "stock":200,
+        "image":"/image.jpg"
+    },
+    {
+        "id":5,
+        "name":"Furniture",
+        "category":"Households",
+        "price":2200,
+        "stock":8,
+        "image":"/image.jpg"
+    },
+    {
+        "id":6,
+        "name":"Mobiles",
+        "category":"Electronics",
+        "price":1500,
+        "stock":2,
+        "image":"/image.jpg"
+    
+    }
+]
