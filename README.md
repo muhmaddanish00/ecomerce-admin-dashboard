@@ -1,4 +1,24 @@
+# e-comerce-admin-dashboard
+This is a modern and fully responsiv admin dashboard built with nextjs (app router),Tialwindcss and React(contexapi)
 
+it is managing and design product, inventory, and salse data for ecomerce plateform.
+## Live Demo
+[Click here to viewLivel(https://ecomerce-admin-dashboard-iwo9-ko71lnhii.vercel.app)
+
+***Dashboard***
+--total order,stock and Low inventory count
+-Interactive Sales Chart Using recharts
+-summery card
+
+
+***inventory***
+-product Table With:
+-Image, stock, price, status and category
+-search filter
+-Live inventory from global context
+
+###Add product:
+add input new product via from input for:name , category, price, stock and image url
 ## Getting Started
 
 First, run the development server:
