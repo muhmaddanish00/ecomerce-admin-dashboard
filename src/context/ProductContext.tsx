@@ -2,7 +2,7 @@
 
 import { createContext, ReactNode, useContext, useState } from "react";
 import defaultProduct from '@/data/products.json'
-import { error } from "console";
+
 
 
 type Product = {
