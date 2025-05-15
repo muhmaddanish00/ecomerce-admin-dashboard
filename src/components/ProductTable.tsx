@@ -11,7 +11,7 @@ function ProductTable() {
     const filterProducts = products.filter(product =>product.name.toLowerCase().includes(search.toLowerCase()))
 
   return (
-    <div>
+    <div className='overflow-x-auto'>
         <div>
             <h2>Product Inventory</h2>
             <input type="text"
@@ -20,7 +20,7 @@ function ProductTable() {
             className='border px-3 py-1 rounded border-green-500 shadow-2xl'
             onChange={e => setSearch(e.target.value)} />
         </div>
-        <table className='w-full text-sm'>
+        <table className='min-w-full text-sm'>
             <thead>
                 <tr className='bg-gray-100 text-left p-2'>
                     <th>name</th>

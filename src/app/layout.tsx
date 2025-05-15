@@ -23,12 +23,13 @@ export default function RootLayout({
         className='flex min-h-screen bg-gray-100 '
         >
         <ProductProvider>
+         
 
         <Sidebar/>
           
         <div className="flex flex-col flex-1">
           <Navbar/>
-          <main className="p-6">
+          <main className="p-4 md:p-6">
             {children}
 
           </main>

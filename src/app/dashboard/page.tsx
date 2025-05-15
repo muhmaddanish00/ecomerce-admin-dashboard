@@ -6,7 +6,7 @@ function dashboardPage() {
 
        <div className='space-y-8'>
         {/* cards */}
-        <div className='grid grid-cols-1 md:grid-cols-4 gap-4'>
+        <div className='grid grid-cols-1 lg:grid-4 md:grid-cols-4 gap-4'>
             <div className='bg-white p-4 rounded shadow text-center'>
                 <p className='text-sm text-gray-500'>Total Orders</p>
                 <h3 className='text-2xl font-bold'>210</h3>

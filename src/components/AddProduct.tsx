@@ -51,7 +51,7 @@ export default function Add() {
             <h2 className='text-gray-500 font-bold text-md'>
                 Add New
             </h2>
-            <div className='mb-4'>
+            <div className='mb-4 flex flex-col'>
                 <label className='block'>Product Name</label>
                 <input type="text"
                     name='name'
@@ -60,7 +60,7 @@ export default function Add() {
                     className='w-full border px-3 py-2 rounded'
                     required />
             </div>
-            <div className='mb-4'>
+            <div className='mb-4 flex flex-col'>
                 <label className='block'>Category</label>
                 <input type="text"
                     name='category'
@@ -69,7 +69,7 @@ export default function Add() {
                     className='w-full border px-3 py-2 rounded'
                     required />
             </div>
-            <div className='mb-4'>
+            <div className='mb-4 flex flex-col'>
                 <label className='block'>Stock</label>
                 <input type="number"
                     name='stock'
@@ -78,7 +78,7 @@ export default function Add() {
                     className='w-full border px-3 py-2 rounded'
                     required />
             </div>
-            <div className='mb-4'>
+            <div className='mb-4 flex flex-col'>
                 <label className='block'>Price</label>
                 <input type="number"
                     name='price'
@@ -87,7 +87,7 @@ export default function Add() {
                     className='w-full border px-3 py-2 rounded text-black'
                     required />
             </div>
-            <div className='mb-4'>
+            <div className='mb-4 flex flex-col'>
                 <label className='block'>Product Image</label>
                 <input type="text"
                     name='image'
